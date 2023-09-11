@@ -1,0 +1,15 @@
+{
+  "name": "lazy-svg",
+  "version": "1.0.0",
+  "description": "Lazy loading inline SVG",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsx bundle.ts"
+  },
+  "author": "https://github.com/dominicwhittle",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "esbuild": "^0.19.2",
+    "tsx": "^3.12.8"
+  }
+}
