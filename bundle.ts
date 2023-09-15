@@ -1,7 +1,7 @@
 import { buildSync } from "esbuild"
 
 const result = buildSync({
-  entryPoints: ['./index.ts'],
+  entryPoints: ['./browser.ts'],
   bundle: true,
   minify: true,
   target: ["chrome58", "firefox57", "safari11", "edge79"],
